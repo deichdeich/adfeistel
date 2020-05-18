@@ -5,6 +5,7 @@ This implements a [Feistel cipher](https://en.wikipedia.org/wiki/Feistel_cipher)
 It uses [BLAKE2](https://en.wikipedia.org/wiki/BLAKE_(hash_function)#BLAKE2) for hashing.
 
 Here's an example of how to use it:
+    
     import adfeistel as adf
     
     # make a feistel tree.  There will be one layer for every key you feed it.
